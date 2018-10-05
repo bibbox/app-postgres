@@ -16,7 +16,7 @@
        "description":"This environment variable sets the superuser password for PostgreSQL",
        "min_length": "1",
        "max_length": "128"
-    }
+    },
     {
        "id":"POSTGRES_DB",
        "display_name":"Postgres Database",
@@ -25,5 +25,5 @@
        "description":"Name for the default database that is created when the image is first started",
        "min_length": "1",
        "max_length": "128"
-    },
+    }
 ]
