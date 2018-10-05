@@ -7,7 +7,7 @@
       "proxy" : "PRIMARY"
     },
     {
-      "id": "§§PORT_5432,
+      "id": "§§PORT_5432",
       "url": "§§INSTANCE-db",
       "protocol": "HTTP",
       "proxy" : "PRIMARY"
