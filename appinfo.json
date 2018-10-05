@@ -1,0 +1,10 @@
+{
+		"name": "PostgreSQL",
+		"short_name": "PostgreSQL",
+		"version": "V.x.x",
+		"description": "PostgreSQL is an object-relational database management system (ORDBMS) with an emphasis on extensibility and standards-compliance.",
+        "short_description": "PostgreSQL is an object-relational database management system (ORDBMS) with an emphasis on extensibility and standards-compliance.",
+		"catalogue_url": "",
+		"application_url": "",
+		"tags": ["Database"]
+}

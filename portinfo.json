@@ -1,0 +1,16 @@
+{
+  "mappings": [
+    {
+      "id": "§§PORT_adminer",
+      "url": "§§INSTANCE",
+      "protocol": "HTTP",
+      "proxy" : "PRIMARY"
+    },
+    {
+      "id": "§§PORT_5432,
+      "url": "§§INSTANCE-db",
+      "protocol": "HTTP",
+      "proxy" : "PRIMARY"
+    }
+  ]
+}

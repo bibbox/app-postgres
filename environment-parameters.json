@@ -1,0 +1,29 @@
+[
+    {
+       "id":"POSTGRES_USER",
+       "display_name":"Postgres User",
+       "type":"text",
+       "default_value":"postgres",
+       "description":"This variable will create the specified user with superuser power and a database with the same name.",
+       "min_length": "1",
+       "max_length": "128"
+    },
+    {
+       "id":"POSTGRES_PASSWORD",
+       "display_name":"Postgres Password",
+       "type":"text",
+       "default_value":"vendetta",
+       "description":"This environment variable sets the superuser password for PostgreSQL",
+       "min_length": "1",
+       "max_length": "128"
+    }
+    {
+       "id":"POSTGRES_DB",
+       "display_name":"Postgres Database",
+       "type":"text",
+       "default_value":"postgres",
+       "description":"Name for the default database that is created when the image is first started",
+       "min_length": "1",
+       "max_length": "128"
+    },
+]
