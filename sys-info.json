@@ -1,4 +1,4 @@
 {
-  runningcontainers:["§§INSTANCE-postgres", "§§INSTANCE-adminer", "§§INSTANCE-connector", "§§INSTANCE-connector-db"],
+  runningcontainers:["§§INSTANCE-postgres", "§§INSTANCE-adminer"],
   supportcontainers:["§§INSTANCE-postgres-data"]
 }
