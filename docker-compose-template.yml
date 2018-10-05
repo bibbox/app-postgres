@@ -17,9 +17,9 @@ services:
     networks:
       - bibbox-default-network
     depends_on:
-      - §INSTANCE-postgres-data
+      - §§INSTANCE-postgres-data
     volumes_from:
-      - §INSTANCE-postgres-data
+      - §§INSTANCE-postgres-data
     restart: always
 
 
