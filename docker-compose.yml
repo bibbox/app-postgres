@@ -2,7 +2,7 @@ version: '2'
 
 services:
 
-  bibboxpostgres:
+  bibbox-postgres:
     image: postgres:latest
     container_name: bibbox-postgres
     environment:
@@ -18,7 +18,7 @@ services:
 
   bibbox-adminer:
     image: adminer
-    container_name: §bibbox-adminer
+    container_name: bibbox-adminer
     links:
       - bibbox-postgres:db
     depends_on:
