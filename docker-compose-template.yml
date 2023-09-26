@@ -32,5 +32,11 @@ services:
     networks:
       - bibbox-default-network
     restart: always
+    proxy:
+          TYPE: PRIMARY
+          URLPREFIX: §§INSTANCE
+          TEMPLATE: default
+          DISPLAYNAME: 'APP Adminer'  
+
 
   
