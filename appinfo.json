@@ -1,10 +1,10 @@
 {
 		"name": "PostgreSQL",
 		"short_name": "PostgreSQL",
-		"version": "latest",
+		"version": "16.0",
 		"description": "Object-relational database management system (ORDBMS)",
         "short_description": "Object-relational database management system (ORDBMS)",
 		"catalogue_url": "",
-		"application_url": "",
+		"application_url": "https://www.postgresql.org/",
 		"tags": ["Database"]
 }
