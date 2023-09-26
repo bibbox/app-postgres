@@ -6,7 +6,7 @@ networks:
 services:
 
   §§INSTANCE-postgres:
-    image: postgres:16.0
+    image: postgres:latest
     container_name: §§INSTANCE-postgres
     environment:
       POSTGRES_USER:      §§POSTGRES_USER
