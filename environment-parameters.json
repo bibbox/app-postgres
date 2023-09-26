@@ -12,7 +12,7 @@
        "id":"POSTGRES_PASSWORD",
        "display_name":"Postgres Password",
        "type":"text",
-       "default_value":"vendetta",
+       "default_value":"setyourrootpassword",
        "description":"This environment variable sets the superuser password for PostgreSQL",
        "min_length": "1",
        "max_length": "128"
