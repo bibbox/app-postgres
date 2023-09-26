@@ -6,7 +6,7 @@ networks:
 services:
 
   §§INSTANCE-postgres:
-    image: postgres:latest
+    image: postgres:16.0
     container_name: §§INSTANCE-postgres
     environment:
       POSTGRES_USER:      §§POSTGRES_USER
@@ -20,7 +20,7 @@ services:
       - §§INSTANCE-postgres-data
     volumes_from:
       - §§INSTANCE-postgres-data
-    restart: always
+    restart: unless-stopped
 
 
   §§INSTANCE-adminer:
@@ -35,9 +35,5 @@ services:
     networks:
       - bibbox-default-network
     restart: always
-
-  §§INSTANCE-postgres-data:
-    image: busybox
-    container_name: §§INSTANCE-postgres-data
     volumes:
       - ./data/var/lib/postgresql/data:/var/lib/postgresql/data
