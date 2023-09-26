@@ -1,9 +1,9 @@
-version: '2'
+version: '3'
 
 services:
 
   bibbox-postgres:
-    image: postgres:latest
+    image: postgres:16.0
     container_name: bibbox-postgres
     environment:
       POSTGRES_USER:      §§POSTGRES_USER
@@ -26,8 +26,6 @@ services:
     ports:
       - "8065:8080"
 
-  bibbox-postgres-data:
-    image: busybox
-    container_name: bibbox-postgres-data
+ 
     volumes:
       - ./data/var/lib/postgresql/data:/var/lib/postgresql/data
