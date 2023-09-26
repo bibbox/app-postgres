@@ -6,7 +6,7 @@ This container can be installed as [BIBBOX APP](http://bibbox.readthedocs.io/en/
 
 ## Standalone Installation
 
-Clone the github repsoitory and start the install.sh. If necessary change the ports and volume mounts in `docker-compose.yml`.  
+Clone the github repository and start the install.sh. If necessary change the ports and volume mounts in `docker-compose.yml`.  
 
 ```shell
 $ git clone https://github.com/bibbox/app-postgres
