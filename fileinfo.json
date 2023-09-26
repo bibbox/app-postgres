@@ -2,5 +2,7 @@
 	"environment_replace": {},
 	"script_replace": [],
 	"permissions": {
+            "assets": 775,
+        "data" : 777
 	}
 }
