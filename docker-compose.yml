@@ -11,10 +11,7 @@ services:
       POSTGRES_DB:        §§POSTGRES_DB
     ports:
       - "5432:5432"
-    depends_on:
-      - bibbox-postgres-data
-    volumes_from:
-      - bibbox-postgres-data
+    
 
   bibbox-adminer:
     image: adminer
@@ -24,8 +21,16 @@ services:
     depends_on:
       - bibbox-postgres
     ports:
-      - "8065:8080"
-
- 
+      - "8080:8080"
+    networks:
+      - bibbox-default-network
     volumes:
       - ./data/var/lib/postgresql/data:/var/lib/postgresql/data
+    proxy:
+      TYPE: PRIMARY
+      URLPREFIX: bibbox-postgres
+      TEMPLATE: default
+      DISPLAYNAME: 'App Adminerproxy'
+
+ 
+    
