@@ -12,15 +12,12 @@ services:
       POSTGRES_USER:      §§POSTGRES_USER
       POSTGRES_PASSWORD:  §§POSTGRES_PASSWORD
       POSTGRES_DB:        §§POSTGRES_DB
-    ports:
-      - "§§PORT_5432:5432"
+   
     networks:
       - bibbox-default-network
-    depends_on:
-      - §§INSTANCE-postgres-data
-    volumes_from:
-      - §§INSTANCE-postgres-data
     restart: always
+    volumes:
+      - ./data/var/lib/postgresql/data:/var/lib/postgresql/data
 
 
   §§INSTANCE-adminer:
@@ -31,13 +28,9 @@ services:
     depends_on:
       - §§INSTANCE-postgres
     ports:
-      - "§§PORT_adminer:8080"
+      - "8080:8080"
     networks:
       - bibbox-default-network
     restart: always
 
-  §§INSTANCE-postgres-data:
-    image: busybox
-    container_name: §§INSTANCE-postgres-data
-    volumes:
-      - ./data/var/lib/postgresql/data:/var/lib/postgresql/data
+  
