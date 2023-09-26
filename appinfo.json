@@ -6,5 +6,6 @@
         "short_description": "Object-relational database management system (ORDBMS)",
 		"catalogue_url": "",
 		"application_url": "https://www.postgresql.org/",
+		"documentation_url": "https://www.postgresql.org/docs/",
 		"tags": ["Database"]
 }
