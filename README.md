@@ -2,7 +2,7 @@
 
 This container can be installed as [BIBBOX APP](https://bibbox.readthedocs.io/en/latest/) or standalone. 
 
-* after the docker installation follow these [instructions](https://github.com/bibbox/app-seeddms/blob/master/INSTALL-APP.md)
+* after the docker installation follow these [instructions](INSTALL-APP.md)
 
 ## Standalone Installation
 
