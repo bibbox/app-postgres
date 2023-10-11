@@ -3,9 +3,10 @@
 		"short_name": "PostgreSQL",
 		"version": "16.0",
 		"description": "Object-relational database management system (ORDBMS)",
-        "short_description": "Object-relational database management system (ORDBMS)",
+        	"short_description": "Object-relational database management system (ORDBMS)",
 		"catalogue_url": "",
 		"application_url": "https://www.postgresql.org/",
 		"application_documentation_url": "https://www.postgresql.org/docs/",
-		"tags": ["Database"]
+		"tags": ["Database"],
+		"instance_information": "work in progress"
 }
