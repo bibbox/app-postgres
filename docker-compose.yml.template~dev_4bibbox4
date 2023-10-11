@@ -15,8 +15,6 @@ services:
     networks:
       - bibbox-default-network
     restart: unless-stopped
-    volumes:
-      - ./data/var/lib/postgresql/data:/var/lib/postgresql/data
 
 
   §§INSTANCE-adminer:
@@ -31,11 +29,10 @@ services:
     networks:
       - bibbox-default-network
     restart: always
+    volumes:
+      - ./data/var/lib/postgresql/data:/var/lib/postgresql/data
     proxy:
           TYPE: PRIMARY
           URLPREFIX: §§INSTANCE
           TEMPLATE: default
-          DISPLAYNAME: 'APP Adminerproxy'  
-
-
-  
+          DISPLAYNAME: 'APP Adminerproxy' 
