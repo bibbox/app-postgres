@@ -26,11 +26,6 @@ services:
       - bibbox-default-network
     volumes:
       - ./data/var/lib/postgresql/data:/var/lib/postgresql/data
-    proxy:
-      TYPE: PRIMARY
-      URLPREFIX: bibbox-postgres
-      TEMPLATE: default
-      DISPLAYNAME: 'App Adminerproxy'
-
+    
  
     
