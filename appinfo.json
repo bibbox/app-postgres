@@ -1,10 +1,12 @@
 {
 		"name": "PostgreSQL",
 		"short_name": "PostgreSQL",
-		"version": "latest",
+		"version": "16.0",
 		"description": "Object-relational database management system (ORDBMS)",
-        "short_description": "Object-relational database management system (ORDBMS)",
+        	"short_description": "Object-relational database management system (ORDBMS)",
 		"catalogue_url": "",
-		"application_url": "",
-		"tags": ["Database"]
+		"application_url": "https://www.postgresql.org/",
+		"application_documentation_url": "https://www.postgresql.org/docs/",
+		"tags": ["Database"],
+		"instance_information": "<p> PostgreSQL is a powerful, open source object-relational database system with over 35 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance. </p>"
 }
